@@ -1,0 +1,37 @@
+{% extends 'layout/default.html.twig' %}
+
+
+{% block title %}Liste des articles
+{% endblock %}
+
+{% block content %}
+
+	<main>
+
+<section>
+			<h1>Liste des articles</h1>
+
+</section>
+		<article class="main-container">
+
+
+			{% for article in articles %}
+
+        
+		   
+				<a href="/article/{{article.id}}" class="text-decoration-none">
+					<div class="resume-article">
+						<h2>{{article.title}}</h2>
+						<p>{{article.excerpt}}</p>
+					</div>
+				</a>
+		 
+                
+			{% endfor %}
+
+
+		</article>
+
+	</main>
+
+{% endblock %}

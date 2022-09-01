@@ -1,0 +1,125 @@
+*{
+    /* font-family: 'Red Hat Display', sans-serif; */
+    font-family: 'Lexend Deca', sans-serif;
+   
+}
+
+:root{
+    --darkbleu : #012030;
+    --mediumbleu : #13678A;
+    --lightbleu: #45C4B0;
+    --mediumgreen: #9AEBA3;
+    --lightgreen:#DAFDBA;
+}
+
+main{
+    overflow: hidden;
+    height: 100vh;
+    box-sizing: 0;
+    margin: 0 auto;
+    background-color: var(--mediumgreen);
+    position: relative;
+  
+}
+
+section{
+    background:  linear-gradient(0deg, rgba(154,235,163,1) 0%, rgba(218,253,186,1) 100%);
+    width:100%;
+    height: 10rem;
+}
+
+.log{
+    background:  linear-gradient(0deg, rgba(218,253,186,1) 0%, rgba(154,235,163,1) 100%);
+    width:100%;
+    height: 10rem;
+}
+
+.main-register{
+    background-color: var(--lightgreen);
+}
+.main-login{
+    background-color: var(--lightgreen);
+}
+
+
+
+nav{
+    /* height: 5rem !important; */
+    padding:1rem !important;
+}
+
+img{
+    width: 4rem; 
+}
+
+li{
+    padding-left: 2rem;
+    font-weight: 700;
+    font-weight: 900;
+}
+
+h1, h2, p, li, label{
+    color: var(--darkbleu);
+}
+
+h1{
+    text-align: center;
+    font-weight: 800 !important;
+    margin-bottom: 5rem !important;
+}
+
+h2{
+    font-weight: 600 !important;
+}
+
+.main-container{
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 80%;
+}
+
+.about-article{
+    margin-top: 10rem;
+    margin: 0 auto;
+}
+
+section>h1{
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.resume-article{
+    background-color: var(--lightgreen);
+    border-radius: 20px;
+    padding: 15px; 
+    margin-top: 3rem !important;
+    margin: 0 auto;
+}
+
+.resume-article:hover{
+    box-shadow: 8px 8px 10px 5px var(--darkbleu);
+}
+
+.resume-article>p{
+    font-weight: 500;
+}
+
+
+.btn-envoi{
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: var(--darkbleu);
+    color: var(--mediumgreen);
+}
+
+footer{
+    background-color: var(--darkbleu) !important;
+   
+}
+
+.text-footer{
+    color: var(--lightgreen) !important;
+    font-weight: 400;
+}
+

@@ -1,0 +1,27 @@
+{% extends 'layout/default.html.twig' %}
+
+
+{% block title %}Liste des articles{% endblock %}
+
+{% block content %}
+
+	<main>
+		<section>
+			<h1>{{article.title}}</h1>
+		</section>
+
+		<article class="main-container">
+
+
+
+			<div class="detail-article mt-3 mx-auto">
+				<p class="fs-5">{{article.description}}</p>
+			{# <img src="../assets/img/book.jpg" class="w-100 mx-auto mt-3" alt="book"> #}
+			</div>
+         
+
+		</article>
+
+	</main>
+
+{% endblock %}
