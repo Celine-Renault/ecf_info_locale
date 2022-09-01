@@ -4,6 +4,7 @@
    
 }
 
+
 :root{
     --darkbleu : #012030;
     --mediumbleu : #13678A;
@@ -14,34 +15,37 @@
 
 main{
     overflow: hidden;
-    height: 100vh;
+    min-height: 100vh;
     box-sizing: 0;
     margin: 0 auto;
-    background-color: var(--mediumgreen);
-    position: relative;
+    background-color: var(--lightgreen);
+    padding-bottom: 3rem;
   
 }
 
+
 section{
-    background:  linear-gradient(0deg, rgba(154,235,163,1) 0%, rgba(218,253,186,1) 100%);
+   background: linear-gradient(0deg,rgba(218,253,186,1)0%, rgba(154,235,163,1)  70%);
     width:100%;
     height: 10rem;
 }
 
 .log{
-    background:  linear-gradient(0deg, rgba(218,253,186,1) 0%, rgba(154,235,163,1) 100%);
+    /* background: linear-gradient(0deg, rgba(154,235,163,1) 0%, rgba(218,253,186,1) 70%); */
+    background: linear-gradient(0deg,rgba(218,253,186,1)0%, rgba(154,235,163,1)  70%);
     width:100%;
     height: 10rem;
 }
 
 .main-register{
     background-color: var(--lightgreen);
+    /* background: linear-gradient(0deg, rgba(154,235,163,1) 0%, rgba(218,253,186,1) 70%); */
 }
+
 .main-login{
     background-color: var(--lightgreen);
+    /* background: linear-gradient(0deg, rgba(154,235,163,1) 0%, rgba(218,253,186,1) 70%); */
 }
-
-
 
 nav{
     /* height: 5rem !important; */
@@ -89,15 +93,17 @@ section>h1{
 }
 
 .resume-article{
-    background-color: var(--lightgreen);
-    border-radius: 20px;
+    background-color: var(--lightgreen); 
+    border-radius: 20px; 
     padding: 15px; 
     margin-top: 3rem !important;
+    /* padding-bottom: 1rem; */
     margin: 0 auto;
+    /* border-bottom: 5px solid var(--darkbleu); */
 }
 
 .resume-article:hover{
-    box-shadow: 8px 8px 10px 5px var(--darkbleu);
+    box-shadow: 5px 5px 10px 3px #cdecb1;
 }
 
 .resume-article>p{
