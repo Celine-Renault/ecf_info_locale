@@ -12,6 +12,11 @@
     --lightgreen:#DAFDBA;
 }
 
+/*pour faire disparaitre la barre de scroll sur le cote webkit pour le navifateur chrome*/
+body::-webkit-scrollbar {
+    display: none; 
+  }
+
 main{
     overflow: hidden;
     min-height: 100vh;
