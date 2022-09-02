@@ -7,13 +7,15 @@
 
 	<main>
 		<section>
+		<div class="title">
 			<h1>{{article.title}}</h1>
+		</div>
 		</section>
 
 		<article class="main-container">
 
 			<div class="detail-article mt-3 mx-auto">
-				<p class="fs-5">{{article.description}}</p>
+				<p class="fs-5">{{article.description|raw}}</p>
 			</div>
 
 		</article>
